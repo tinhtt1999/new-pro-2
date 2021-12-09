@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: SVN-COOKIE;
-    src: url(/assets/font/SVN-Cookie.ecb62dda.ttf);
+    src: url(assets/font/SVN-Cookie.ecb62dda.ttf);
 }
 html
 {
@@ -15,7 +15,7 @@ html
 body
 {
     /* background-color: #181F26; */
-    background: url(/assets/img/starry-sky-stars-dots-black.jpg);
+    background: url(assets/img/starry-sky-stars-dots-black.jpg);
     color: white;
 }
 .header-fix
