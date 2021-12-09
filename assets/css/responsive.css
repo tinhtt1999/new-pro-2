@@ -1,0 +1,95 @@
+@media (max-width: 600px)
+{
+    .btn-headermenu
+    {
+        display: flex ;
+    }
+    .header, .header-fix
+    {
+        display: none !important;
+    }
+    .header-main
+    {
+        padding: 150px 0;
+    }
+    .logo-header-main img
+    {
+        height: 450px;
+        /* max-width: 100%; */
+    }
+    .btn
+    {
+        margin-top: -95px;
+        animation: ease-in-out 1s set_btn forwards;
+        
+    }
+    @keyframes set_btn
+    {
+    from
+        {
+            margin-left: 370px;
+            width: 0;
+        }
+    to
+        {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+    .btn img
+    {
+        height: 150px;
+    }
+    .text-content-about
+    {
+        flex-direction: column;
+    }
+    .text-content-about img
+    {
+        width: 100%;
+        /* height: 400px; */
+    }
+    .text-content-about .about-info
+    {
+        height: 400px;
+    }
+    .text-content-about .about-video
+    {
+        height: 500px;
+    }
+    
+    .description
+    {
+        font-size: 18px;
+    }
+    .address .value
+    {
+        font-size: 12px;
+    }
+    .btn-copy svg
+    {
+        width: 10px;
+    }
+    .text-header-about, .text-header-Tokenomics, .text-header-airdrop, .text-header-partner
+    {
+        font-size: 52px;
+    }
+    .text-body-tokenomics
+    {
+        font-size: 20px;
+    }
+    .step
+    {
+        width: 75%;
+    }
+    .step-step .step-content .step-text h6
+    {
+        font-size: 10px;
+    }
+    .step-step .step-content .step-text p
+    {
+        font-size: 8px;
+    }
+
+
+}
